@@ -1,6 +1,6 @@
 # flutter_animation
 
-A new Flutter project.
+A new Flutter project for learning how to use flutter_animate package.
 
 ## Getting Started
 
