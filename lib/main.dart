@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-          child: effetAnimation(),
+          child: customAnimation(),
         ),
       ),
     );
