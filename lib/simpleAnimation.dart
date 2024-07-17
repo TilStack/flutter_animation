@@ -20,8 +20,10 @@ Animate simpleAnimation() {
         const SizedBox(
           height: 10,
         ),
-        const Text('Hello World'),
+        const Text('Hello my World'),
       ],
     ),
-  ).fadeIn(duration: const Duration(seconds: 3));
+  ).fadeIn(
+    duration: const Duration(seconds: 3),
+  );
 }

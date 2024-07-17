@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animation/personelAnimation.dart';
 import 'simpleAnimation.dart';
 
 void main() {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-          child: simpleAnimation(),
+          child: effetAnimation(),
         ),
       ),
     );
