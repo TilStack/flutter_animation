@@ -42,3 +42,15 @@ Animate customAnimation() {
         }),
       );
 }
+
+Animate repeatAnimation() {
+  return Animate(
+    child: const Text('TilStack repeat my animation'),
+  )
+      .animate(
+        onPlay: (controller) => controller.repeat(),
+      )
+      .scaleXY(
+        duration: const Duration(seconds: 2),
+      );
+}
