@@ -25,7 +25,21 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-          child: repeatAnimation(),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              repeatAnimation(),
+              const SizedBox(
+                height: 5,
+              ),
+              simpleAnimation(),
+              const SizedBox(
+                height: 5,
+              ),
+              effetAnimation()
+            ],
+          ),
         ),
       ),
     );
